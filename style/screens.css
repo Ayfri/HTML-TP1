@@ -7,7 +7,6 @@
     display: block;
     text-align: center;
     margin: 30px;
-    /*z-index: 1;*/
 }
 
 .image p {
@@ -17,16 +16,18 @@
 
 .image img {
     border-radius: 20px;
-    /*z-index: 2;*/
-    display:block;
-    box-shadow: #cccccc 0 0 20px 10px;
+    border: 5px solid #cccccc;
+    box-shadow: 0 0 50px 30px black inset;
+    box-sizing: border-box;
 }
 
-.image .area {
-    display: block;
-    position: absolute;
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
-.image .area:hover {
-    background-color: #cccccc;
+.buttons button {
+    margin: 0 5em;
+    min-width: 10em;
+    width: 20em;
 }
