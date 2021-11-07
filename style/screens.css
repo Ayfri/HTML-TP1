@@ -1,0 +1,32 @@
+.first_screen img {
+    margin: 5px;
+    width: 80%;
+}
+
+.image {
+    display: block;
+    text-align: center;
+    margin: 30px;
+    /*z-index: 1;*/
+}
+
+.image p {
+    color: darkgray;
+    align-self: center;
+}
+
+.image img {
+    border-radius: 20px;
+    /*z-index: 2;*/
+    display:block;
+    box-shadow: #cccccc 0 0 20px 10px;
+}
+
+.image .area {
+    display: block;
+    position: absolute;
+}
+
+.image .area:hover {
+    background-color: #cccccc;
+}
