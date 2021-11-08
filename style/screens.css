@@ -19,6 +19,7 @@
     border: 5px solid #cccccc;
     box-shadow: 0 0 50px 30px black inset;
     box-sizing: border-box;
+    max-width: 90%;
 }
 
 .buttons {
@@ -31,6 +32,14 @@
     min-width: 10%;
     width: 20em;
     animation: slideIn 2s, fadeIn 2s;
+}
+
+.center {
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: auto 0;
 }
 
 @keyframes slideIn {
