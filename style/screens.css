@@ -28,6 +28,17 @@
 
 .buttons button {
     margin: 0 5em;
-    min-width: 10em;
+    min-width: 10%;
     width: 20em;
+    animation: slideIn 2s, fadeIn 2s;
+}
+
+@keyframes slideIn {
+    0% {
+        margin-top: 20%;
+    }
+
+    100% {
+        margin-top: 0;
+    }
 }
