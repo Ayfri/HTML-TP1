@@ -65,20 +65,20 @@ button:hover {
     overflow: hidden;
 }
 
-#game_over {
+#important {
     font-size: 5em;
     position: absolute;
     top: 32%;
-    text-shadow: black 0 0 30px, black 0 0 15px, black 0 0 5px;
+    text-shadow: black 0 0 25px, black 0 0 15px, black 0 0 10px, black 0 0 5px;
 }
 
-#retry {
+#important_button {
     margin-top: 2em;
     min-width: 20em;
     width: 30%;
 }
 
-#game_over_img {
+#important_img {
     margin-top: 5%;
 }
 
@@ -88,7 +88,7 @@ button:hover {
 }
 
 @media (orientation: portrait) {
-    #retry {
+    #important_button {
         margin-top: 20vh;
         font-size: 2em;
     }
