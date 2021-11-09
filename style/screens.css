@@ -2,6 +2,10 @@ body {
     overflow: hidden;
 }
 
+p {
+    line-height: 2em;
+}
+
 .first_screen img {
     margin: 5px;
     width: 80%;
